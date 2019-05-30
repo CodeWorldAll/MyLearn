@@ -4,17 +4,22 @@
 - Predicate<T> 
     - 参数：T
     - 返回：boolean
-    - 示例：xxx是否ok？
+    - 示例：T是否满足条件？
 - Consumer<T>
     - 参数：T
     - 返回：void
-    - 示例：干些什么事情，但不用返回
+    - 示例：根据T干些什么事情，但不用返回
 - Function<T,R>
     - 参数：T
     - 返回：R
-    - 示例：干些什么事情，返回R 
+    - 示例：根据T干些什么事情，返回R 
 - Suppier<T>
     - 参数：None
     - T
     - 示例：不用参数，返回T
-- UnaryOperator
+- UnaryOperator<T>继承Function<T,T>
+    - 参数：T
+    - 返回：T
+    - 示例：根据T干些什么事情，返回T
+- BinaryOperator<T>
+
