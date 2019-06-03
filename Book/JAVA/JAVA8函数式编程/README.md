@@ -17,9 +17,13 @@
     - 参数：None
     - T
     - 示例：不用参数，返回T
-- UnaryOperator<T>继承Function<T,T>
+- UnaryOperator<T>  继承Function<T,T>
     - 参数：T
     - 返回：T
     - 示例：根据T干些什么事情，返回T
-- BinaryOperator<T>
+- BinaryOperator<T>  继承BiFunction<T,T,T>
+    - 参数：T,T
+    - 返回：T
+    - 示例: max min
+    
 
